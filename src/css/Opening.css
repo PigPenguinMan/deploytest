@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.opening_box {width: 390px; height: 844px; position: relative; background: #1b4542;}
+.my_row {padding: 0 24px;}
+
+.logo_box {
+        position: absolute; left: 50%; top: 35%;
+        transform: translate(-50%,-50%);
+    }
+.logo {width: 60px; float: left; margin-top: 8px; margin-right: 8px;}
+.logo_title {
+    font-weight: bold; color: #fff; float: left;
+    font-size: 36px; font-family: S-CoreDream-3Light;
+    margin-top: 4px;
+    }
+
+
+.opening_SingUp_btn {
+    position: absolute; left: 51.5%; bottom: 13%; transform: translate(-50%, 0%); 
+    background: #f0bf70; width: 160px; height: 50px;
+    border-radius: 25px; box-sizing: border-box;
+}
+.opening_SingUp_btn a.SingUp_a {
+    display: block; color: #1b4542;
+    font-size: 24px; font-weight:bold; 
+    text-align: left; padding: 5px 0 0 14px;
+    float: left;
+}
+.fontAwesom_box {float: right; margin: 12px 22px;}
+.fontAwesom {color: #1b4542; }
+.copyright {
+    position: absolute; left: 70px; bottom: 8%; 
+    color: #ccc;
+}

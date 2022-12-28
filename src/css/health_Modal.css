@@ -1,0 +1,21 @@
+
+.layer_bg {
+    z-index: 50;
+    width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6);
+    position: fixed; left: 0; top: 0;
+}
+.layer_bg .layer {width: 250px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 100; background-color: #fff; border-radius: 25px; box-sizing: border-box; }
+
+.layer ul.modal_title li {border-bottom: 1px solid #ccc;}
+.layer ul.modal_title li:last-child{border: none; position: relative;}
+.layer ul.modal_title li a {display: block; font-size: 20px; text-align: center; padding: 14px 0; color: #000;}
+.layer ul.modal_title li a:hover {color: #1b4542;}
+.measure_box {position: absolute; width: 100%; height: 90px; background: #fff;  z-index: 120; border-radius: 25px; padding: 10px;}
+.measure_box input {width: 100%; border: 1px solid #1b4542; box-sizing: border-box;}
+.measure_box button {display: block; margin: 10px auto; border-radius: 25px; color: #fff; background: #1b4542; padding: 5px 15px;}
+.measure_box button:hover {color: #ccc;}
+
+.close {
+    float: right; margin-right: 70px;
+}
+.push {float: left; margin-left: 66px;}

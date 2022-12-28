@@ -1,0 +1,37 @@
+.box {width: 390px; position: relative; background: #f5f6f8;}
+.box .padding_box {padding: 65px 10px 10px 10px;}
+.s_title {font-size: 20px; text-align-last: center; font-weight: bold; padding-bottom: 20px; }
+.today {font-size: 15px; color: #ccc;}
+
+/* 버튼 */
+.btn_box { overflow: hidden; position: absolute; top: 15px; right: 15px; background: #ecedef; border-radius: 25px; padding: 2px;}
+.btn_box button {float: left; font-size: 14px; padding: 5px 15px; background:none; }
+.btn_box button.active {border-radius: 25px; background: #1b4542;  color:#fff;}
+
+/* 검진율바 */
+
+.progressbar_box {padding-bottom: 20px; }
+.progressbar_box p {float: left; margin: 0; }
+.progressbar_box .progressbar {padding-top: 6px; margin-left: 55px;}
+
+/* 탭메뉴 */
+.tab {background: #fff; padding: 10px; margin-bottom: 20px; border-radius: 10px;}
+.tab li {float: left; width: 33%;}
+.tab li a {display: block; font-size: 15px; text-align: center; padding: 5px 15px; color: #ccc; }
+.tab li.active a {color: #fff; border-radius: 10px; background: #1b4542;  }
+.i_tab {background: #fff; padding: 10px; border-radius: 10px;}
+.i_tab li {float: left; width: 33%;}
+.i_tab li a {display: block; font-size: 14px; text-align: center; padding: 5px 12px; color: #ccc; }
+.i_tab li.active a {color: #fff; border-radius: 10px; background: #1b4542;  }
+
+/* 건강검진리스트 */
+.h_box { width: 390px; padding: 10px; position: relative; background: #fff; margin: 15px -10px; overflow: hidden;}
+.h_box .left_box {float: left;}
+.h_box .left_box p {font-size: 14px; margin: 0; padding-top: 10px;}
+.h_box .left_box .h_title { font-size: 16px; font-weight: bold; margin: 0; padding-bottom: 10px;}
+.h_box .left_box p.h_notice { color: #ccc; padding: 0; }
+/* 아이콘 */
+.h_box .right_box {float: right;}
+.h_box .right_box .icon {font-size: 22px; padding: 15px; background: #fbed68; color: #2d3a4b; border-radius: 50%;}
+.h_box .right_box .icon.active {color: #fff; background: #1b4542;  border-radius: 50%;}
+.h_box .check { color: #000; }

@@ -1,0 +1,42 @@
+.login_title { font-size: 20px; text-align: center; padding: 10px; border-bottom: 1px solid #ccc;}
+.ilogin_box {position: absolute; top: 47px; left: 0; width: 390px; background: #eff0f4;}
+/* 로그인폼 */
+.login_form {width: 350px; background: #fff; padding: 15px; margin: 20px; border-radius: 25px; position: relative;}
+.infant_name_input {
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #1b4542;
+    border-radius: 10px;
+}
+.infant_date_input {
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #1b4542;
+    border-radius: 10px;
+}
+
+.male_btn {
+    background: #fff; color: #1b4542; width: 49%; text-align: center; border: 1px solid #1b4542;
+    box-sizing: border-box; padding: 15px 0; border-radius: 15px; font-size: 18px; font-weight: bold;
+}
+.female_btn {
+    background: #fff; color: #1b4542; width: 49%; text-align: center; border: 1px solid #1b4542;
+    box-sizing: border-box; padding: 15px 0; border-radius: 15px; font-size: 18px; font-weight: bold; margin-left: 2%;
+}
+.male_btn.active {
+    background: #1b4542; color: #fff;
+}
+
+.female_btn.active {
+    background: #1b4542; color: #fff;
+}
+
+.infant_submit {
+    width: 320px; height: 50px; font-size: 24px; border-radius: 15px; border: solid 1px #1b4542; box-sizing: border-box; margin-top: 15px;
+    background: #1b4542; color: #fff;
+}
+  
+  

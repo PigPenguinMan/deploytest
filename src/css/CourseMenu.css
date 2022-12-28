@@ -1,0 +1,30 @@
+/*CourseMenu*/
+.menuToggle{ background-color:  #1b4542  !important; color : #ffffff  !important;}
+.memuToggle:hover {background-color:  #1b4542  !important; color : #ffffff !important; }
+.menuToggle_item:hover {background-color:  #1b4542; color : #ffffff;} 
+
+/*AreaMenu*/
+.areaToggle{background-color:  #1b4542 !important; color : #ffffff !important;}
+.areaToggle_item:hover{background-color:  #1b4542 !important; color : #ffffff !important;}
+
+/*MedicalCourse*/ 
+.courseBox{
+    font-family: 'Noto Sans KR' !important;
+    height: 100vh;
+    max-width: 420px;
+    background-color: antiquewhite;
+}
+
+.searchContainer{
+    border : 2px solid black;
+    height: 100vh;
+    max-width: 420px;
+}
+
+.printBox{
+    margin : 4vh;
+    width : 85%;
+    height : 80%;
+}
+
+

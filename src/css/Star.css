@@ -1,0 +1,21 @@
+.starColor{
+    color : #ffffff;
+}
+
+.starColor:hover{
+    color : #ffffff;
+}
+
+button{
+    all :unset;
+}
+
+.starColorNull{
+    color : "lightgray"
+}
+
+
+/*write review*/
+.btnColor{
+    background-color: red;
+}

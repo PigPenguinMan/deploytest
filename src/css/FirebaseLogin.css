@@ -1,0 +1,32 @@
+/* 헤더 */
+.F_login_box { width: 390px; height: 400px; position: relative;}
+.F_login_title { font-size: 24px; text-align: center; padding: 10px; border-bottom: 1px solid #ccc;}
+
+/* input박스 */
+.F_input_box {position: absolute; top: 52px; left: 0; background: #eff0f4; width: 390px; padding: 0 24px;}
+.F_input_box p {margin: 10px 0;}
+
+.F_submit {
+    background: #1b4542;
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0 !important;
+}
+.F_submit_login {
+    background: #1b4542;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px !important;
+}
+
+.F_input_box input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #1b4542;
+    border-radius: 10px;
+}
+.F_signup_btn { display: block; text-align: center; color: #000; padding-bottom: 10px;}
+
+

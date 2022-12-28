@@ -1,0 +1,20 @@
+/*복약관리 페이지 css파일 (서아)
+base module의 버튼 디자인 및 색상값과 최대한 맞춰서 작성*/
+
+.addMed-btn {
+    position:relative;
+    color: white;
+    background-color: #1b4542;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.med-form {
+    margin: 30px 50px;
+}
+
+.med-input {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    max-width: 50px;
+}

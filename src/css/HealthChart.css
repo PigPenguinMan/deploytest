@@ -1,0 +1,11 @@
+.first_box {width: 390px; height: 400px; position: relative;}
+.first_box ul {margin: 0; padding: 0;}
+.first_box ul li.f_title { font-size: 16px; font-weight: bold; padding: 10px 0;}
+.first_box ul li.bold {font-weight: bold; font-size: 14px;}
+.plus_btn {
+    position: absolute; bottom: 200px; right: 100px;
+    width: 50px; height: 50px; 
+    border-radius: 50%; background: #1b4542;
+}
+.font_plus {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.desc_box {margin-top: 10px;}

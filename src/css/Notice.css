@@ -1,0 +1,34 @@
+.first_box {width: 360px; height: 550px; position: relative; padding-left: 24px; overflow: hidden;}
+.first_box ul li {}
+.first_box ul li.title { font-size: 16px; font-weight: bold; padding: 10px 0;}
+.first_box ul li.bold {font-weight: bold; font-size: 14px;}
+.plus_btn {
+    position: absolute; bottom: 30px; right: 10px;
+    width: 50px; height: 50px; 
+    border-radius: 50%; background: #1b4542;
+}
+
+.notice_box {background: #fff8b7; height: 800px;}
+.today_date {color: #000; padding: 10px;}
+.temp_box {text-align: center;  margin-bottom: 10px;}
+.temp_box .temp_font_box { 
+    width: 50px; height: 50px; background: #fff; 
+    border-radius: 50%; position: relative; float: left;
+    border: 1px solid #ccc; box-sizing: border-box;
+}
+.temp_font_box .temp_font {font-size: 22px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.temp_box .infant_temp {font-size: 30px;font-weight: bold; float: left; margin: 5px 10px;}
+.temp_name {text-align: center; font-size: 16px; margin-bottom: 20px;}
+.temp_name span {font-weight: bold;}
+.temp_check {text-align: center; list-style: circle; margin-bottom: 10px;}
+
+.temp_desc_box {background: #fff; margin: 20px; padding: 0 20px 20px 20px; border-radius: 25px;}
+.happycat_box {text-align: center; margin: 5px;}
+.happycat_box .happycat {width: 100px; height: 70px; text-align:center;}
+.temp_desc_box ul {margin: 0; padding: 0;}
+.temp_desc_box ul li {padding-top: 20px; font-size: 16px; position: relative;}
+.temp_desc_box ul li .desc_box {position: absolute; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 220px; margin-left: 35px;}
+.temp_desc_box ul li span {font-weight: bold;}
+
+.desc_font_box {width: 60px; height: 60px; border-radius: 50%; position: relative; float: left; margin-right: 10px; margin-top: 6px;}
+.desc_font_box .desc_font {font-size: 24px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #1b4542; }

@@ -1,0 +1,211 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.body {
+  text-align: center;
+}
+
+.Box_L_G {
+  color: white;
+  background-color: #1b4542;
+  border-radius: 50px;
+  width: 85%;
+  height: 200px;
+  text-align: center;
+}
+
+/* 서아 > 홈> Weather 박스 정렬 수정을 위해 추가했습니다 */
+.wrapper {
+  display: grid;
+  color: white;
+  background-color: #1b4542;
+  border-radius: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  margin-left: 20px;
+}
+
+.one {
+  grid-column: 1 / 1;
+  grid-row: 1;
+}
+
+.one h4 {
+  padding-top: 45px;
+  padding-left: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  text-align: center;
+}
+.two h5 {
+  padding-top: 3px;
+  padding-right: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*여기까지*/
+
+.Box_M_G {
+  color: white;
+  background-color: #1b4542;
+  border-radius: 50px;
+  width: 85%;
+  height: 150px;
+  text-align: center;
+}
+
+.Box_S_G {
+  color: white;
+  background-color: #1b4542;
+  border-radius: 50px;
+  width: 85%;
+  height: 100px;
+  text-align: center;
+}
+
+.Box_L_O {
+  color: black;
+  background-color: #b8ca53;
+  border-radius: 50px;
+  width: 85%;
+  height: 200px;
+  text-align: center;
+}
+
+.Box_M_O {
+  color: black;
+  background-color: #feb546;
+  border-radius: 50px;
+  width: 85%;
+  height: 150px;
+  text-align: center;
+
+}
+
+.Box_S_O {
+  color: black;
+  background-color: #feb546;
+  border-radius: 50px;
+  width: 85%;
+  height: 100px;
+  text-align: center;
+}
+
+.Box_L_W {
+  color: black;
+  background-color: #bdbdbd;
+  border-radius: 50px;
+  width: 85%;
+  height: 200px;
+  text-align: center;
+}
+
+.Box_M_W {
+  color: black;
+  background-color: #bdbdbd;
+  border-radius: 50px;
+  width: 85%;
+  height: 150px;
+  text-align: center;
+}
+
+.Box_S_W {
+  color: black;
+  background-color: #bdbdbd;
+  border-radius: 50px;
+  width: 85%;
+  height: 100px;
+  text-align: center;
+}
+
+.Btn_L_G {
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #1b4542;
+  text-align: center;
+}
+
+.Btn_M_G {
+  color: white;
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #1b4542;
+  text-align: center;
+}
+
+.Btn_S_G {
+  color: white;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #1b4542;
+  text-align: center;
+}
+
+.Btn_L_O {
+  color: black;
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #feb546;
+  text-align: center;
+}
+
+.Btn_M_O {
+  color: black;
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #feb546;
+  text-align: center;
+}
+
+.Btn_S_O {
+  color: black;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #feb546;
+  text-align: center;
+}
+
+.Btn_L_W {
+  color: black;
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #bdbdbd;
+  text-align: center;
+}
+
+.Btn_M_W {
+  color: black;
+  width: 70px;
+  height: 35px;
+  border-radius: 14px;
+  background-color: #bdbdbd;
+  text-align: center;
+}
+
+.Btn_S_W {
+  width: black;
+  width: 50px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: #bdbdbd;
+  text-align: center;
+}
+
+/* 버튼 눌렀을때 */
+.Btn_S_W:active {}
